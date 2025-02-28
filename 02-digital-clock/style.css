@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+}
+
+.main {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.clock-card {
+  display: flex;
+  align-items: center;
+}
+
+.clock-text {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.num {
+  font-size: 54px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.text {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.colon {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.clock-card h1 {
+  margin-bottom: 110px;
+  padding-left: 5px;
+}
