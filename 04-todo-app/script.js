@@ -1,4 +1,6 @@
+// function for add new task
 document.querySelector("#push").onclick = function () {
+  // if task input null alert notification
   if (document.querySelector("#newtask input").value.length == 0) {
     alert("Plesa enter a task...");
   } else {
@@ -12,7 +14,7 @@ document.querySelector("#push").onclick = function () {
         </button>
     </div>
     `;
-
+    //delete button
     let current_tasks = document.querySelectorAll(".delete");
 
     for (let i = 0; i < current_tasks.length; i++) {
