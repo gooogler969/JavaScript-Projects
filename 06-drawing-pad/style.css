@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+  display: flex;
+  width: auto;
+  height: 60px;
+  position: fixed;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.5s;
+  padding: 15px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+/* .container {
+  display: flex;
+  gap: 20px;
+} */
+
+button,
+input {
+  margin: 5px;
+}
+
+.nav:hover,
+button:hover {
+  cursor: pointer;
+}
+
+.clr {
+  height: 35px;
+  width: 35px;
+  background-color: blue;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: transform 0.5s;
+}
+
+.clr:nth-child(1) {
+  background-color: #000;
+}
+
+.clr:nth-child(2) {
+  background-color: red;
+}
+
+.clr:nth-child(3) {
+  background-color: orange;
+}
+
+.clr:nth-child(4) {
+  background-color: blue;
+}
+
+.clr:nth-child(5) {
+  background-color: purple;
+}
+
+.clr:nth-child(6) {
+  background-color: yellowgreen;
+}
+
+.clr:nth-child(7) {
+  background-color: yellow;
+}
+
+.clr:nth-child(8) {
+  background-color: #fff;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  border: 3px solid white;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  background: #039e4b;
+}
+
+.save {
+  background: #03469e;
+}
+
+input[type="color"] {
+  width: 60px;
+  height: 40px;
+}
+
+#ageOutputId {
+  color: #fff;
+  font-size: 15px;
+}
+
+#ageInputId {
+  background: #000;
+  height: 7px;
+  outline: none;
+  cursor: ew-resize;
+  border-radius: 5px;
+  border: 3px solid white;
+  accent-color: white;
+}
