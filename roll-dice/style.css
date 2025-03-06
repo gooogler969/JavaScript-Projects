@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #000;
+}
+
+.container {
+  width: 400px;
+  padding: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #000;
+  border: 3px solid #00ff9c;
+  box-shadow: 0 15px 35px rgb(0, 255, 156, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dice-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 16px;
+  color: #00ff9c;
+  margin: 30px 0;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px;
+  background: #00ff9c;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+}
+
+.shake {
+  animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
