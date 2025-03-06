@@ -59,7 +59,7 @@ saveBtn.addEventListener("click", () => {
   a.click();
 });
 
-//draw logic
+//drawing logic
 window.addEventListener("mousedown", (e) => (draw = true));
 window.addEventListener("mouseup", (e) => (draw = false));
 
